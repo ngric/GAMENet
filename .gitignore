@@ -109,3 +109,5 @@ venv.bak/
 /data/PROCEDURES_ICD.csv
 /data/drug-DDI.csv
 /data/PATIENTS.csv
+
+/saved/*
