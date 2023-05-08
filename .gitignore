@@ -102,7 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Data
 /data/DIAGNOSES_ICD.csv
 /data/PRESCRIPTIONS.csv
 /data/PROCEDURES_ICD.csv
 /data/drug-DDI.csv
+/data/PATIENTS.csv
