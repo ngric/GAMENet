@@ -8,6 +8,7 @@
 - Evaluation code + command (if applicable): Run [GAMENet jupyter notebook](GAMENet.ipynb)
 - Table of results (no need to include additional experiments, but main reproducibility result should be included)
 GAMENet results:
+
 | model_name               | ddi    | ja     | prauc  | avg_p  | avg_r  | avg_f1 |
 |--------------------------|--------|--------|--------|--------|--------|--------|
 | GAMENet                  | 0.0852 | 0.4501 | 0.6885 | 0.6231 | 0.6277 | 0.6072 |
@@ -17,6 +18,7 @@ GAMENet results:
 | GAMENet_no_DDI           | 0.0864 | 0.4510 | 0.6894 | 0.6260 | 0.6274 | 0.6081 |
 
 Baselines (obtained from code in [code/baselines](code/baselines):
+
 | model_name | ddi    | ja     | prauc  | avg_p  | avg_r  | avg_f1 |
 |------------|--------|--------|--------|--------|--------|--------|
 | Nearest    | 0.0791 | 0.3911 | 0.3805 | 0.5786 | 0.5705 | 0.5465 |
