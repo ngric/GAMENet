@@ -1,3 +1,36 @@
+# Reproduction Information
+- Citation to the original paper: [(Shang et al., 2019)](https://arxiv.org/abs/1809.01852)
+- Link to the original paper’s repo (if applicable): [sjy1203/GAMENet](https://github.com/sjy1203/GAMENet)
+- Dependencies: See [requirements](##Requirements) below
+- Data download instruction: See [processing instructions](##Running the code) below 
+- Preprocessing code + command (if applicable): See [processing instructions](##Running the code) below
+- Training code + command (if applicable): Run [GAMENet jupyter notebook](GAMENet.ipynb)
+- Evaluation code + command (if applicable): Run [GAMENet jupyter notebook](GAMENet.ipynb)
+- Table of results (no need to include additional experiments, but main reproducibility result should be included)
+GAMENet results:
+| model_name               | ddi    | ja     | prauc  | avg_p  | avg_r  | avg_f1 |
+|--------------------------|--------|--------|--------|--------|--------|--------|
+| GAMENet                  | 0.0852 | 0.4501 | 0.6885 | 0.6231 | 0.6277 | 0.6072 |
+| GAMENet_.95_decay_weight | 0.0828 | 0.4449 | 0.6863 | 0.6318 | 0.6103 | 0.6026 |
+| GAMENet_no_decay         | 0.0637 | 0.4373 | 0.6823 | 0.6459 | 0.5852 | 0.5955 |
+| GAMENet_without_DM       | 0.0878 | 0.4452 | 0.6871 | 0.6247 | 0.6191 | 0.6030 |
+| GAMENet_no_DDI           | 0.0864 | 0.4510 | 0.6894 | 0.6260 | 0.6274 | 0.6081 |
+
+Baselines (obtained from code in [code/baselines](code/baselines):
+| model_name | ddi    | ja     | prauc  | avg_p  | avg_r  | avg_f1 |
+|------------|--------|--------|--------|--------|--------|--------|
+| Nearest    | 0.0791 | 0.3911 | 0.3805 | 0.5786 | 0.5705 | 0.5465 |
+| LR         | 0.0782 | 0.4087 | 0.6739 | 0.6730 | 0.5224 | 0.5669 |
+| Leap       | 0.0634 | 0.3981 | 0.5698 | 0.5637 | 0.5895 | 0.5559 |
+| Retain     | 0.0858 | 0.4195 | 0.6608 | 0.5678 | 0.6356 | 0.5805 |
+
+
+Original README follows:
+
+# GAMENet
+GAMENet : Graph Augmented MEmory Networks for Recommending Medication Combination
+
+For reproduction of medication prediction results in our [paper](https://arxiv.org/abs/1809.01852), see instructions below.
 # GAMENet
 GAMENet : Graph Augmented MEmory Networks for Recommending Medication Combination
 
