@@ -17,7 +17,7 @@ GAMENet results:
 | GAMENet_without_DM       | 0.0878 | 0.4452 | 0.6871 | 0.6247 | 0.6191 | 0.6030 |
 | GAMENet_no_DDI           | 0.0864 | 0.4510 | 0.6894 | 0.6260 | 0.6274 | 0.6081 |
 
-Baselines (obtained from code in [code/baselines](code/baselines):
+Baselines (obtained from code in [code/baselines](code/baseline)):
 
 | model_name | ddi    | ja     | prauc  | avg_p  | avg_r  | avg_f1 |
 |------------|--------|--------|--------|--------|--------|--------|
