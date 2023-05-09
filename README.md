@@ -1,9 +1,9 @@
 # Reproduction Information
 - Citation to the original paper: [(Shang et al., 2019)](https://arxiv.org/abs/1809.01852)
 - Link to the original paper’s repo (if applicable): [sjy1203/GAMENet](https://github.com/sjy1203/GAMENet)
-- Dependencies: See [requirements](##Requirements) below
-- Data download instruction: See [processing instructions](##Running the code) below 
-- Preprocessing code + command (if applicable): See [processing instructions](##Running the code) below
+- Dependencies: See [requirements](#requirements) below
+- Data download instruction: See [processing instructions](#running-the-code) below 
+- Preprocessing code + command (if applicable): See [processing instructions](#running-the-code) below
 - Training code + command (if applicable): Run [GAMENet jupyter notebook](GAMENet.ipynb)
 - Evaluation code + command (if applicable): Run [GAMENet jupyter notebook](GAMENet.ipynb)
 - Table of results (no need to include additional experiments, but main reproducibility result should be included)
